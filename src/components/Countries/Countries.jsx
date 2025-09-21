@@ -25,7 +25,7 @@ const Countries = ({ countriesPromise }) => {
 
     return (
         <div>
-            <h1>Visited countries: {countries.length}</h1>
+            <h1>The Visited countries: {countries.length}</h1>
             <h3>Total Country Visited: {visitedCountries.length} </h3>
             <h3>Total Visited Flags: {VisitedFlags.length}</h3>
             <ol>
